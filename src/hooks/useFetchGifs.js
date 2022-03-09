@@ -9,7 +9,8 @@ export const useFetchGifs = ( category ) => {
             data:[],
             loading: true
         }
-    );    
+    );      
+    //comen
 
     useEffect( ()=>{
         getGifs( category )
